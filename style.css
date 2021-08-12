@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darksalmon;
+}
+
+body > h1 {
+    color: white;
+}
+
+.domino-list {
+    display: flex;
+    flex-direction: row;
+    font-wrap: wrap;
+}
+
+.domino-list  > li {
+    list-style-type: none;
+    font-size: 5rem;
+}
+
+.domino-list > li:hover{
+    color:hotpink;
+    transform: scale(1.5);
+
+}
+
+.selected {
+    color: white;
+    filter: drop-shadow(0 0 0.25rem white);
+}
